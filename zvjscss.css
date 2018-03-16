@@ -1,0 +1,62 @@
+.zype-default .vjs-big-play-button {
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border: 0;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  outline: none; }
+  .zype-default .vjs-big-play-button .vjs-icon-placeholder {
+    display: block;
+    width: 100%;
+    height: 100%; }
+    .zype-default .vjs-big-play-button .vjs-icon-placeholder:before {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+.zype-default .vjs-control-bar {
+  background: black; }
+  .zype-default .vjs-control-bar .vjs-control {
+    outline: none; }
+  .zype-default .vjs-control-bar .vjs-current-time {
+    display: inline; }
+  .zype-default .vjs-control-bar .vjs-time-divider {
+    display: inline; }
+  .zype-default .vjs-control-bar .vjs-duration {
+    display: inline; }
+  .zype-default .vjs-control-bar .vjs-remaining-time {
+    display: none; }
+  .zype-default .vjs-control-bar .vjs-load-progress {
+    background: rgba(255, 255, 255, 0.4); }
+  .zype-default .vjs-control-bar .vjs-play-progress {
+    background: #ffc50f url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAYAAADgzO9IAAAAP0lEQVQIHWWMAQoAIAgDR/QJ/Ub//04+w7ZICBwcOg5FZi5iBB82AGzixEglJrd4TVK5XUJpskSTEvpdFzX9AB2pGziSQcvAAAAAAElFTkSuQmCC") -50% 0 repeat;
+    background-color: #00aced; }
+  .zype-default .vjs-control-bar .vjs-quality-selector:before {
+    display: none; }
+  .zype-default .vjs-control-bar .vjs-quality-selector:after {
+    content: "\F114";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+  .zype-default .vjs-control-bar .vjs-volume-panel-horizontal {
+    width: auto; }
+    .zype-default .vjs-control-bar .vjs-volume-panel-horizontal:hover {
+      width: auto; }
+    .zype-default .vjs-control-bar .vjs-volume-panel-horizontal .vjs-mute-control:hover ~ .vjs-volume-control.vjs-volume-horizontal {
+      width: auto;
+      height: 30px; }
+    .zype-default .vjs-control-bar .vjs-volume-panel-horizontal .vjs-volume-control.vjs-volume-horizontal {
+      opacity: 1;
+      width: auto;
+      height: 30px;
+      transition: none; }
+      .zype-default .vjs-control-bar .vjs-volume-panel-horizontal .vjs-volume-control.vjs-volume-horizontal:hover {
+        width: auto; }
+
+/*# sourceMappingURL=zvjscss.css.map */
